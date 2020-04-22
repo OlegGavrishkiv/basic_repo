@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+#id1{
+    font-size: 3em;
+    letter-spacing: 0.5em;
+}
+
+.class1{
+    letter-spacing: 0.2em;
+    text-decoration-line: underline;
+}
+
+.class2{
+    text-decoration-line: line-through;
+}
+
+#id2{
+    text-decoration-line: underline;
+}
+
+.transform{
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url("../images/photo_1.jpg");
+    background-size: 1980px;
+}
