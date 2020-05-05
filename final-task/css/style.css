@@ -1,0 +1,417 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: lightgray;
+    position: absolute;
+}
+
+
+.menu{
+    flex-grow: 1;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 500px 0 500px;
+}
+
+.menu1{
+    font-family: Arial;
+    font-style: italic;
+    color: darkgray;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu3{
+    color: red;
+    text-decoration: underline;
+    padding: 20px;
+    display: block;
+}
+a.menu3:hover{
+    text-decoration: none;
+}
+
+.unique{
+    font-family: Arial;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+a.menu1:hover{
+    border-radius: 4px;
+    background-color: lightgray;
+}
+
+a.unique{
+    border-radius: 4px;
+    background-color: red;
+}
+
+.footermenu1{
+    color: darkgray;
+    text-decoration: underline;
+    padding: 20px 20px 20px 0;
+    display: block;
+}
+
+a.footermenu1:hover{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: alpha_echo;
+    src: local(alpha_echo);
+}
+
+h1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 130%;
+    line-height: 0.2;
+}
+
+.block3size{
+    font-size: 107%;
+    color: white;
+    padding-right: 70px;
+}
+
+.block3size2{
+    padding-right: 130px;
+}
+
+.block3size3{
+    font-size: 107%;
+    color: white;
+    padding-right: 95px;
+}
+
+.block3size4{
+    font-size: 107%;
+    color: white;
+    padding-right: 85px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 120%;
+    line-height: 3;
+}
+
+header{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.header{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 200%;
+    width: 600px;
+    height: 140px;
+    background-color: white;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 100%;
+
+}
+.padding1{
+    padding: 20px;
+}
+.padding-button1{
+    padding: 15px 0 50px 30px;
+}
+
+.line-height1{
+    line-height: 1.5;
+}
+
+.line-height2{
+    line-height: 3;
+}
+
+.span1{
+    font-style: italic;
+    font-size: 130%;
+    line-height: 3;
+}
+
+main{
+    background-color: white;
+    text-align: left;
+    flex-basis: 100%;
+}
+
+.main{
+    width: 700px;
+    height: 100%;
+    margin-left: 200px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+    order: 1;
+}
+
+.right{
+    width: 350px;
+    height: 100%;
+    text-align: left;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 200px;
+    order: 2;
+}
+.clear{
+    clear: both;
+}
+
+.right2{
+    position: absolute;
+    top: 760px;
+    left: 940px;
+    width: 350px;
+    height: 700px;
+    text-align: left;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 200px;
+    order: 3;
+}
+
+.footer{
+    background-color: #252525;
+    order: 4;
+    width: 100%;
+    margin-top: 230px;
+    height: 425px;
+}
+
+.block1{
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 10px;
+    color: white;
+    float: left;
+}
+
+.block2{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+}
+
+.block3{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+}
+
+.footermenu3{
+    color: darkgray;
+    text-decoration: none;
+    padding: 20px 20px 20px 0;
+    display: block;
+}
+
+.footermenu2{
+    color: darkgray;
+    text-decoration: underline;
+    padding: 20px 20px 20px 0;
+    display: block;
+}
+
+a.footermenu2:hover{
+    text-decoration: none;
+}
+
+.button1{
+    border: 0;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.svg{
+    padding-right: 10px;
+
+}
+
+hr.line{
+    border: none;
+    color: red;
+    height: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .right{
+        margin-right: 1px;
+    }
+
+    .main{
+        margin-left: 80px;
+    }
+
+    .line-height1{
+        line-height: 2;
+    }
+
+    .line-height2{
+        line-height: 4;
+    }
+
+    .right2{
+        top: 890px;
+        left: 820px;
+        height: 730px;
+    }
+
+    .footer{
+        margin-top: 220px;
+    }
+
+    .block1{
+        margin-left: 100px;
+    }
+    .block2{
+        margin-left: 450px;
+    }
+
+    .block3{
+        margin-left: 800px;
+    }
+
+    .menu{
+        padding-left: 200px;
+        padding-right: 300px;
+    }
+
+    .menu1{
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    .right{
+        margin-left: 1px;
+    }
+
+    .main{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .right2{
+        top: 820px;
+        left: 760px;
+        height: 650px;
+    }
+
+    .line-height1{
+        line-height: 1.5;
+    }
+
+    .line-height2{
+        line-height: 2;
+    }
+
+    .menu3{
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    .footer{
+        margin-top: 230px;
+        height: 815px;
+    }
+
+    .block1{
+        margin-left: 200px;
+    }
+    .block2{
+        margin-left: 630px;
+    }
+    .block3{
+        margin-left: 400px;
+        margin-top: 420px;
+    }
+    .menu{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .unique{
+        padding-left: 40px;
+    }
+
+    .menu1{
+        padding-left: 50px;
+    }
+}
