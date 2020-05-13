@@ -1,14 +1,25 @@
-.first{
-    background-image: url("../images/Layer 30.png");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color: lightgray;
     position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.header{
+    background-image: url("../images/Layer 30.png");
+    width: 1600px;
     height: 72px;
     z-index: 304;
 }
 
-.cherry {
+header {
     font-size: 30px;
     font-family: "Arial";
     color: rgb(174, 75, 93);
@@ -20,7 +31,7 @@
     position: absolute;
     left: 167px;
     top: 25.495px;
-    z-index: 306;
+
 }
 .Lorem{
     font-size: 12px;
@@ -34,6 +45,8 @@
     top: 50px;
     z-index: 307;
 }
+
+
 
 input{
     border-style: solid;
@@ -65,7 +78,6 @@ input.search{
     background-image: url("../images/Layer 32.png");
     background-repeat: no-repeat;
     position: relative;
-    top: 38px;
     left: 158px;
     width: 984px;
     height: 413px;
@@ -94,3 +106,33 @@ input.search{
     margin-top: 60px;
     margin-left: 30px;
 }
+
+.menu{
+    background-color: rgb(149, 22, 31);
+    position: absolute;
+    left: 158px;
+    top: 312px;
+    width: 680px;
+    height: 36px;
+    list-style: none;
+    display: flex;
+    padding: 0 0 0 300px;
+}
+
+.menu1{
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+    padding-left: 45px;
+    padding-top: 8px;
+    display: block;
+
+}
+
+.main{
+    background-color: white;
+    position: absolute;
+    top: 400px;
+}
+
+
